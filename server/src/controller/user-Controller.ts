@@ -13,7 +13,8 @@ class UserController{
         let Users = await manager.find(user);
         // console.log(Users);
         // res.status(200).json({ results: { comapny } });
-         res.status(200).json(Users);
+        // console.log(Users)
+         return Users
 
     }
 
